@@ -1,0 +1,4 @@
+com/examly/springapp/service/HealthCoachService.class
+com/examly/springapp/controller/HealthCoachController.class
+com/examly/springapp/SpringappApplication.class
+com/examly/springapp/configuration/CorsConfiguration.class

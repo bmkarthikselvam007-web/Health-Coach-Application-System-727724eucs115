@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.examly.springapp.HealthCoachTests
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.911 s <<< FAILURE! - in com.examly.springapp.HealthCoachTests
+com.examly.springapp.HealthCoachTests.test_Add_Coach_With_Invalid_Experience  Time elapsed: 0.004 s  <<< ERROR!
+jakarta.servlet.ServletException: Request processing failed: com.examly.springapp.exception.InvalidExperienceException: Experience cannot be negative
+	at com.examly.springapp.HealthCoachTests.test_Add_Coach_With_Invalid_Experience(SpringappApplicationTests.java:45)
+Caused by: com.examly.springapp.exception.InvalidExperienceException: Experience cannot be negative
+	at com.examly.springapp.HealthCoachTests.test_Add_Coach_With_Invalid_Experience(SpringappApplicationTests.java:45)
+
